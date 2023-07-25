@@ -1,29 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dokument</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <style>
+        /* Benutzerdefiniertes CSS zum Positionieren des Logos und der Textbox */
+        .logo-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            width: 200px;
+            height: auto;
+        }
+
+        .text-box {
+            margin-left: 20px;
+            padding: 10px;
+            background-color: #f8f9fa;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Home/ Root</h1>
     <div class="container">
         <div class="row">
-            <div class="col-sm-2">
+            <div class="col-sm-2 mt-3">
                 <div class="list-group">
                     <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
-                      Home
+                        Home
                     </a>
-                    <a href="projects.html" class="list-group-item list-group-item-action">Projects</a>
-                    <a href="stream.html" class="list-group-item list-group-item-action">Stream</a>
-                    <a href="aboutUs.html" class="list-group-item list-group-item-action">About us</a>
-                  </div>
+                    <a href="projects.html" class="list-group-item list-group-item-action">Projekte</a>
+                    <a href="stream.html" class="list-group-item list-group-item-action">Livestream</a>
+                    <a href="aboutUs.html" class="list-group-item list-group-item-action">Über uns</a>
+                </div>
+            </div>
+            <div class="col-sm-10 mt-3">
+                <div class="logo-container mt-3">
+                    <div>
+                        <h1><b>Willkommen auf der  Seite von Nexus Robotics!</b></h1>
+                        <p>Dies ist die Textbox auf der linken Seite.</p>
+                    </div>
+                    <img src="assets/Pictures/LogoEdited.jpg" alt="Logo" class="logo">
+                </div>
             </div>
         </div>
     </div>
 
-
-<script src="assets/js/bootstrap.bundle.min.js"></script>  
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
